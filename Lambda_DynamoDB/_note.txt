@@ -4,3 +4,4 @@ Fullstack Serverless Applications on AWS Course
 (Add DynamoDB SDK files and Lambda Console Labs)
 Deploying and Configuring Lambda Functions for Our API Using the AWS Console
 Creating Lambda Functions for Our API Gateway API with the AWS CLI
+Static Site Deployment with AWS S3 
