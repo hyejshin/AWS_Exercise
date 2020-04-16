@@ -2,12 +2,12 @@
 The purpose of this repository is learning AWS services
 
 ## Projects
-# EventTriggersForLambda
+### EventTriggersForLambda
 S3 bucket(create object put/delete trigger), lambda, and SNS(subscribe email or SMS) are required to use this code. 
 The flow of this logic is S3 bucket -> Lambda -> SNS. 
 Once user upload or delete a file, the lambda will be triggered. The python code will be processed and send a message to SNS.
 
-# Lambda_DynamoDB
+### Lambda_DynamoDB
 S3 bucket, Lambda, and DynamoDB are required to use this code.
 static-site has html, js, and css files. This code displays list of artists and songTitle from DynamoDB. 
 You can also add or update an item. This code will be deployed is S3 bucket.
@@ -16,7 +16,7 @@ createTest.json, getTest.json, and updateTest.json are example of data.
 You can deploying and configuring Lambda functions for the API.
 [Reference of this code: Linux Academy 'Fullstack Serverless Applications on AWS' course]
 
-# S3EventProcessor_JAva
+### S3EventProcessor_JAva
 S3 bucket and lambda are required to us this code.
 Once user upload a zipfile to a bucket, the lambda will be triggered and extract the zip file in S3 bucket.
 
